@@ -217,7 +217,7 @@
 
 }
 
-.web19202 .group6 .group1 .path3817f77c4 {
+.web19202 .group6 .group1 .path3a57f94de {
     position: absolute;
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
@@ -248,7 +248,7 @@
 
 }
 
-.web19202 .group6 .group1 .path44e75e7cf {
+.web19202 .group6 .group1 .path4429160b3 {
     position: absolute;
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
@@ -279,7 +279,7 @@
 
 }
 
-.web19202 .group6 .group1 .path52d9cde2e {
+.web19202 .group6 .group1 .path554b9cda4 {
     position: absolute;
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
@@ -620,7 +620,7 @@
 
 }
 
-.web19202 .component31 {
+.web19202 .enterButton {
 
       display: block;
       position: absolute;
@@ -632,7 +632,7 @@
     -webkit-transform-origin: center;
     transform-origin: center;
       opacity: 1;
-      cursor: default;
+      cursor: pointer;
       margin-top: 0.00px;
       margin-right: 0.00px;
       margin-bottom: 0.00px;
@@ -649,9 +649,10 @@
     left: 788.78px;
     top: 645.00px;
 
+  border: none;
+  outline: none;
 }
-
-.web19202 .component31 .rectangle5 {
+.web19202 .enterButton .rectangle5 {
     position: absolute;
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
@@ -661,7 +662,7 @@
     -webkit-transform-origin: center;
     transform-origin: center;
       opacity: 1;
-      cursor: default;
+      cursor: pointer;
       margin-top: 0.00px;
       margin-right: 0.00px;
       margin-bottom: 0.00px;
@@ -696,6 +697,9 @@
     bottom: 1.50px;
 
 }
+
+
+
 
 .web19202 .enter {
     position: absolute;
