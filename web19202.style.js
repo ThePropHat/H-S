@@ -1,4 +1,7 @@
 
+import { html } from '@polymer/lit-element';
+let cssText = `
+
 
       html {
         height: 100%;
@@ -217,7 +220,7 @@
 
 }
 
-.web19202 .group6 .group1 .path3817f77c4 {
+.web19202 .group6 .group1 .path356ba3ff9 {
     position: absolute;
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
@@ -248,7 +251,7 @@
 
 }
 
-.web19202 .group6 .group1 .path44e75e7cf {
+.web19202 .group6 .group1 .path4b21f0e84 {
     position: absolute;
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
@@ -279,7 +282,7 @@
 
 }
 
-.web19202 .group6 .group1 .path52d9cde2e {
+.web19202 .group6 .group1 .path531d1fbdb {
     position: absolute;
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
@@ -1034,3 +1037,10 @@
 
 }
 
+;
+`;
+cssText = cssText.replace(/background-image: url\(\"assets/g, `background-image: url("${import.meta.url.replace('web19202.style.js', 'assets')}`);
+cssText = cssText.replace(/src: url\(assets/g, `src: url(${import.meta.url.replace('web19202.style.js', 'assets')}`);
+export const Web19202Style = html`
+${cssText}
+`;
